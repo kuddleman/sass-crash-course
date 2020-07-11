@@ -1,3 +1,23 @@
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto; }
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px; }
+  .btn-primary:hover, .btn-secondary:hover {
+    transform: scale(0.98); }
+
+.btn-primary {
+  background-color: #4198ff; }
+
+.btn-secondary {
+  background-color: #ff8700; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -43,11 +63,5 @@ a {
       line-height: 1.2; }
     .showcase-content p {
       margin: 20px 0; }
-
-.container {
-  max-width: 1100px;
-  padding: 0 30px;
-  margin: 0 auto;
-  overflow: auto; }
 
 /*# sourceMappingURL=style.css.map */
