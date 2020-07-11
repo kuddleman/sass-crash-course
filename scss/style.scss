@@ -25,8 +25,7 @@ a {
 
 
 .showcase {
-  background: $primary-color;
-  color: #fff;
+  @include set-background($primary-color);
   height: 600px;
 
   nav {
@@ -46,9 +45,7 @@ a {
     }
   }
 
-  a {
-    color: #fff;
-  }
+  
   
   &-content {
     height: 100%;
@@ -63,10 +60,7 @@ a {
       font-size: 50px;
       line-height: 1.2;
     }
-    p {
-      margin: 20px 0;
-
-    }
+    
   }
 
 }
